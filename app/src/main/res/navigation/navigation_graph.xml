@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/request">
+
+    <fragment
+        android:id="@+id/request"
+        android:name="com.example.digital_socity.chairMain.Request"
+        android:label="fragment_request"
+        tools:layout="@layout/fragment_request" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.digital_socity.chairMain.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/complainFragment"
+        android:name="com.example.digital_socity.chairMain.complain.complainFragment"
+        android:label="fragment_complain"
+        tools:layout="@layout/fragment_complain" />
+    <fragment
+        android:id="@+id/eventFragment"
+        android:name="com.example.digital_socity.chairMain.events.eventFragment"
+        android:label="fragment_event"
+        tools:layout="@layout/fragment_event" />
+    <fragment
+        android:id="@+id/noticeFragment"
+        android:name="com.example.digital_socity.chairMain.notice.noticeFragment"
+        android:label="fragment_notice"
+        tools:layout="@layout/fragment_notice" />
+</navigation>

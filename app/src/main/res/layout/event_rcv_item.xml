@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+<!--        30 limit-->
+        <TextView
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:id="@+id/tvtitleEvent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Title Event Title Event "
+            android:textSize="16sp"
+            />
+        <TextView
+            android:padding="10dp"
+            android:layout_alignBaseline="@id/tvtitleEvent"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/tveventDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="27-10-2001"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_alignStart="@id/tvtitleEvent"
+            android:padding="3dp"
+            android:layout_below="@id/tvtitleEvent"
+            android:id="@+id/tveventDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="this is description of eventthis is description of eventthis is description "
+            android:textSize="16sp"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/complainName"
+            android:textSize="18sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satyam Botadara"
+            />
+        <TextView
+            android:id="@+id/complaintitle"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/complainName"
+            android:textSize="17sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satyam Botadara"
+            />
+        <TextView
+            android:id="@+id/complaindesc"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/complaintitle"
+            android:textSize="15sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satyam Botadara satyambotadara satyam botadara Satyam Botadara satyambotadara satyam botadara satyam botadara satyam botadara saytamSatyam Botadara satyambotadara satyam botadara"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        >
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/usericon3"
+            android:id="@+id/userimage"
+            />
+        <TextView
+            android:id="@+id/tvusername"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="satyam2 botadara2"
+            android:textSize="16sp"
+
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/userimage"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="Accept"
+            android:layout_margin="10dp"
+            android:backgroundTint="#8BC34A"
+            android:id="@+id/btnaccept"
+            android:layout_alignParentEnd="true"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:textAllCaps="false"
+            android:text="cancel"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/icondelete"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="#FF5722"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

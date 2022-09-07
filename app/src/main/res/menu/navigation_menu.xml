@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/profilemenugroup"
+        >
+        <item
+            android:icon="@drawable/profileicon"
+            android:id="@+id/menuitemprofile"
+            android:title="My Profile"
+            />
+        <item
+            android:icon="@drawable/requesticon"
+            android:id="@+id/menuitemMemberRequest"
+            android:title="Member Request"
+            />
+
+        <item
+            android:icon="@drawable/complaint"
+            android:id="@+id/menuitemComplaints"
+            android:title="Complaints"
+            />
+
+    </group>
+
+<group
+    android:id="@+id/eventsgroupmenu"
+    >
+    <item
+        android:icon="@drawable/notices"
+        android:id="@+id/menuitemNotice"
+        android:title="Notices"
+        />
+
+    <item
+        android:icon="@drawable/eventicon"
+        android:id="@+id/menuitemEvent"
+        android:title="Events"
+        />
+
+
+
+</group>
+
+<group
+    android:id="@+id/logoutmenugroup"
+    >
+    <item
+        android:icon="@drawable/logouticon"
+        android:id="@+id/menuitemlogout"
+        android:title="logout"
+        />
+</group>
+
+
+</menu>
